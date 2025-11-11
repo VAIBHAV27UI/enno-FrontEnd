@@ -1,0 +1,53 @@
+.bgService {
+    background-color: #f9f9f9;
+    /* margin-block: 50px; */
+    padding-block: 50px;
+}
+
+.ContentBox {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #444444;
+    padding: 80px 20px;
+    transition: border ease-in-out 0.3s;
+    height: 100%;
+}
+
+.ContentBox h2 {
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    transition: 0.3s;
+    color:#5f687b;
+}
+
+.ContentBox p    {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color:#444444;
+}
+
+.ContentBox span {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #10bc69;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    color:#fff;
+    font-size: 28px;
+}
+
+.ContentBox:hover {
+    border: 1px solid #10bc69;
+
+}
+
+.ContentBox:hover  h2 {
+    color:#10bc69;
+}

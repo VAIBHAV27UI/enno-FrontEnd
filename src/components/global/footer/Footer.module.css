@@ -1,0 +1,77 @@
+.footer {
+  font-size: 14px;
+  border-top: 1px solid #000;
+}
+
+.addSection h1 {
+  color: #5f687b;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.addSection p {
+  margin-bottom: 5px;
+}
+.addSection span {
+  font-weight: bolder;
+  color: #444444;
+}
+
+.footerLinks h4 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  color: #5f687b;
+}
+.footerLinks ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.footerLinks ul li svg{
+    color:#10bc69;
+    font-size: 18px;
+}
+.footerLinks ul li a {
+  display: inline-block;
+  color: #444444;
+  line-height: 1;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.footerLinks ul li a:hover {
+  color: #10bc69;
+}
+
+.social h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    color:#5f687b;
+}
+
+.icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #444444;
+    font-size: 16px;
+    color: #444444;
+    margin-right: 10px;
+    transition: 0.3s;
+    transition: 0.2s ease;
+}
+
+.icon a:hover {
+    color:#10bc69;
+    border-color:#10bc69;
+}
+
+.copyRight a {
+    color:#10bc69;
+    text-decoration: none;
+}

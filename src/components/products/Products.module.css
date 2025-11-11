@@ -1,0 +1,19 @@
+.top {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+.content h3 {
+    font-size: 20px;
+    color:#444;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.review span {
+    color:#444;
+    font-weight: bold;
+
+}

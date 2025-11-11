@@ -1,0 +1,19 @@
+
+
+.btn{
+    font-family: "Raleway", sans-serif;
+    padding: 10px 28px 12px;
+    background-color: #10bc69;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+
+
+.btn:hover{
+    background-color: rgba(16, 188, 105, 0.85);
+}

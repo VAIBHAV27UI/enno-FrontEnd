@@ -1,0 +1,97 @@
+.tabCustom ul {
+  display: flex;
+  margin: 0 auto 30px !important;
+  max-width: 600px;
+  border: none;
+}
+
+.tabCustom ul li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 10px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tabCustom ul li button {
+  border: 0px solid transparent !important;
+  color: #000;
+}
+.tabCustom ul li button:hover {
+  border: 0px solid transparent !important;
+  color: #10bc69;
+}
+
+.tabCustom ul li button.active {
+  color: #10bc69 !important;
+}
+
+.tabCustom .nav-tabs .nav-item.show .nav-link,
+.tabCustom .nav-tabs .nav-link.active {
+  color: #10bc69 !important;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.imgMain {
+  position: relative;
+}
+.imgMain:hover .overlay {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.overlay h1 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.overlay p {
+  color: #444444;
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-right: 50px;
+}
+
+.detailFirst {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.overlay svg {
+  right: 50px;
+  font-size: 24px;
+  transition: 0.3s;
+  line-height: 0;
+  color: #444444;
+  margin-inline: 8px;
+}
+.overlay svg:hover {
+  color: #10bc69;
+}
+
+@media screen and (max-width: 600px) {
+  .tabCustom ul li {
+    font-size: 14px;
+    margin: 0 auto 0px;
+  }
+}

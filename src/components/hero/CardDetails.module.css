@@ -1,0 +1,26 @@
+.card h2{
+    font-size:20px;
+    font-weight: 700;
+    color:#5f687b;
+    margin-block: 15px;
+}
+
+.card p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color:#444444;
+}
+
+.card span {
+    font-size: 40px;
+    color:#10bc69;
+}
+
+.card {
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}

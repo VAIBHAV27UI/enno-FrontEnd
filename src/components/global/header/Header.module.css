@@ -1,0 +1,17 @@
+
+
+.navbar a{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 15px !important;
+    color: #5f687b;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #10bc69;
+}
+
+.navbar .active {
+    color: #10bc69;
+}
