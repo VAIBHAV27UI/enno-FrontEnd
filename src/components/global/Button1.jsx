@@ -9,7 +9,7 @@ const Button1 = (props) =>{
 
     return(
         <>
-            <Link to={href ? href : "/contact"} className={classes.mobileClass}>
+            <Link to={href ? href : "/contact"} className={classes.mobileNone}>
             <button className={classes.btn} style={style}>
                 {text ? text : "get started"}
             </button>
